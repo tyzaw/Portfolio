@@ -1,0 +1,83 @@
+body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #000000;
+        box-sizing: border-box;
+    }
+
+    .hero-img-container {
+        bottom: -148px;
+        right: 200px;
+        background-image:
+            url("https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/e76d4296-43f3-493b-9d50-f8e5c142d06c/2117667014/boys-profile-picture-screenshot.png");
+        width: 200px;
+        height: 200px;
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+    }
+
+    .intro-section-items {
+        width: 50%;
+    }
+
+    ul {
+        list-style: none;
+    }
+    .fs-i {
+        font-size: 13px;
+    }
+    .border-se {
+        border-right: 3px solid white;
+    }
+    .service-list-hover:hover {
+        color: #0dcaf0 !important;
+    }
+
+    @media only screen and (max-width: 992px) {
+        .fs-13px {
+            font-size: 13px !important;
+        }
+
+        .fs-16px {
+            font-size: 16px !important;
+        }
+
+        .hero-img-container {
+            top: 0px;
+            right: 50%;
+            transform: translateX(50%);
+            width: 100px;
+            height: 100px;
+            background-size: 100px 100px;
+        }
+
+        .intro-section-items {
+            width: 100%;
+        }
+
+        .intro-section-items p {
+            font-size: 1rem;
+        }
+
+        .border-se {
+            border: none;
+        }
+
+        .s-and-e-content h3 {
+            font-size: 1.3rem;
+        }
+
+        .intro-section-items p,.s-and-e-content > ul li {
+            font-size: 0.8rem;
+        }
+        .s-and-e-content > ul ul li,.fa-brands,.fa-solid {
+            font-size: 0.6rem;
+        }
+        .fs-cv {
+            font-size: 0.5rem;
+        }
+
+        .progress {
+            height: 3px !important;
+        }
+    }
